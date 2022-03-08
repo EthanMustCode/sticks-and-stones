@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background: burlywood;
 }
@@ -23,6 +29,6 @@ body {
    padding-left: 100px;
 }
 
-#header, img{
+#header, img {
     float: right;
 }
