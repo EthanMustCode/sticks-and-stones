@@ -8,27 +8,38 @@ body {
     background: burlywood;
 }
 
+/* Headding */
+
 #header-bar {
     background: rgb(255, 221, 170);
     height: 120px;
     width: 100%;
-    /*display: flex;*/
-}
-
-#header-container {
     display: flex;
-    height: 80%;
-    width: 100%;
-    background-color: aliceblue;
-
 }
 
-#header, h1 {
-   font-size: larger;
-   color: #352208;
-   padding-left: 100px;
+#logo {
+    float: left;
+    size: 150px;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: block;
 }
 
-#header, img {
+/* #header-img {
     float: right;
+    padding-left: 40px;
+    border-radius: 20px;
+} */
+
+#content-square {
+    height: 770px;
+    width: 100%;
+    background-color: #806443;
+    justify-content: center;
+}
+
+#square-outer {
+    width: 100%;
+    justify-content: center;
+    background-color: aliceblue;
 }
