@@ -1,3 +1,28 @@
 body {
-    background: black
+    background: burlywood;
+}
+
+#header-bar {
+    background: rgb(255, 221, 170);
+    height: 120px;
+    width: 100%;
+    /*display: flex;*/
+}
+
+#header-container {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+#header, h1 {
+   font-size: larger;
+   color: #352208;
+   padding-left: 100px;
+}
+
+#header, img{
+    float: right;
 }
