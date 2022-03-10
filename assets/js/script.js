@@ -116,3 +116,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
     resetButton.addEventListener('click', resetBoard);
 });
+
+// source - https://github.com/javascriptacademy-stash/tic-tac-toe // 
